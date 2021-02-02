@@ -3,7 +3,7 @@ members = ["a", "b"]
 
 [package]
 name = "foo"
-version = "0.1.1"
+version = "0.1.2-alpha.0"
 authors = ["Ed Page <epage@duosecurity.com>"]
 edition = "2018"
 publish = false
