@@ -1,15 +1,2 @@
 [workspace]
 members = ["a", "b"]
-
-[package]
-name = "foo"
-version = "0.1.2-alpha.0"
-authors = ["Ed Page <epage@duosecurity.com>"]
-edition = "2018"
-publish = false
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
-a = { path = "a", version = "^0.1.2-alpha.0"}
-b = { path = "b", version = "^0.1.2-alpha.0"}
