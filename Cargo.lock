@@ -2,16 +2,11 @@
 # It is not intended for manual editing.
 [[package]]
 name = "a"
-version = "0.1.2-alpha.0"
+version = "0.1.2"
+dependencies = [
+ "b",
+]
 
 [[package]]
 name = "b"
-version = "0.1.2-alpha.0"
-
-[[package]]
-name = "foo"
-version = "0.1.2-alpha.0"
-dependencies = [
- "a",
- "b",
-]
+version = "0.1.2"

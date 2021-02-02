@@ -1,10 +1,12 @@
 [package]
 name = "a"
-version = "0.1.2-alpha.0"
+version = "0.1.2"
 authors = ["Ed Page <epage@duosecurity.com>"]
 edition = "2018"
 publish = false
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
+[dependencies.b]
+version = "0.1.2"
+path = "../b"
